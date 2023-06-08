@@ -1,0 +1,816 @@
+/* alert */
+.alert_i{
+    float: right;
+}
+
+/* ================ index ===============*/
+
+/* header */
+
+.top{
+    margin-top: 20px;
+    width: 1600px;
+    height: 100px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    margin-top: 20px;
+}
+
+.top h1{
+    color:  rgb(0,102,0);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 1000;
+    font-size: bold;
+}
+
+.top h1 span{
+    color:  rgb(0,102,0);
+}
+
+.top_img{
+    width: 150px;
+    height: 120px;
+}
+
+.top_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.notification{
+    width: 1500px;
+    height: 40px;
+}
+
+.admin{
+    float: left;
+    width: 1500px;
+    height: 40px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.admin h6{
+    color: rgb(0,66,37);
+    padding-top: 10px;
+    text-align: right;
+   
+}
+
+.nav{
+    width: 1600px;
+    height: 70px;
+    background-color: rgb(0,145,80);
+}
+.nav ul{
+    display: flex;  
+    align-items: center;  
+    margin: auto;
+}
+
+.nav li a{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    color:   rgb(255,240,245);
+    text-decoration: none;
+    padding: 0px 20px 20px 22px;
+
+}
+
+.active{
+    background-color:  rgb(255,165,0);
+    height: 70px;
+    padding: 15px; 
+}
+
+.nav ul li :hover{
+    color: rgb(44, 0, 4);
+    
+}
+
+
+.space{
+    visibility: hidden;
+}
+
+/* body */
+.home_image{
+    width: 1600px;
+    height: 500px;
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.home_image p{
+    position: absolute;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+    color:   rgb(0,145,80);
+    width: 1000px;
+    height: 200px;
+    text-align: center;
+    top: 20px;
+    left: 280px;
+}
+
+.home_image img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+    object-position: 100% 40%;
+}
+
+.crops{
+	background: linear-gradient(to right, rgb(202,224,13), rgb(5,144,51));
+    width: 650px;
+    height: 220px;
+    display: flex;
+}
+
+.crop_img{
+    width: 1000px;
+    height: 200px;
+    float: right;
+}
+
+.crop_img img{
+    padding-left: 10px;
+    width:100%;
+    height: 100%;
+}
+
+.crop_text h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:   rgb(255,255,255);
+    margin-top: 20px;
+}
+
+.crop_text p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:   rgb(255,255,255);
+}
+
+.farmer_img{
+    margin: 10px 10px 0px 50px;
+    float: left;
+    height: 600px;
+    width: 600px;
+}
+
+.farmer_img img{
+    width: 100%;
+    height: 100%;
+}
+
+.farmer_text{
+    float: right;
+    width: 860px;
+    height: 500px;
+    line-height: 1cm;
+    margin-right: 20px;
+}
+
+.farmer_text h2{
+    color:  rgb(0,66,37);
+    font-weight: bold;
+    text-align: center;
+    margin-top: 20px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.farmer_text p{
+
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:   rgb(0,66,37);
+    font-size: 20px;
+    text-align: justify;
+    line-height: 1.2cm;
+}
+
+.soil{
+    background-color:  rgb(23,114,69);
+}
+
+.soil h1{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(254,254,250);
+    padding-top: 10px;
+    text-align: center;
+}
+
+.soil_area{
+    display: flex; 
+}
+
+.soil_name{
+    width : 400px;
+    height: 300px;
+    margin-top: 30px;
+    
+}
+
+.each_soil_name{
+    background-color: rgb(254,254,250);
+    width:350px;
+    height: 250px;
+    border: 2px solid rgb(11, 11, 11);
+    margin: auto;
+    padding-left: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color:  rgb(11, 11, 11);
+}
+
+.each_soil_name h4{
+    font-weight: bold;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.each_soil_name p{
+    text-align: center;
+}
+
+
+
+/* footer */
+
+.footer{
+    padding: 10px;
+    background-color: rgb(11, 11, 11);
+    color: rgb(253, 249, 249);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.social-icon {
+    position: relative;
+    padding: 0;
+    margin: 0;
+}
+
+.social-icon li {
+    display: inline-block;
+    list-style: none;
+}
+
+.social-icon li a {
+    
+    color: #fcf9f9;
+    cursor: pointer;
+    font-size: 20px;
+    text-decoration: none;
+    transition: all 0.4s ease-in-out;
+    width: 100px;
+    height: 80px;
+    line-height: 30px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    margin: 22px 12px 10px 12px;
+}
+
+.social-icon li a:hover {
+    color: rgb(255,140,0);
+    transform: scale(1.1);
+}
+
+/* ======================== information ======================*/
+.crops_info{
+    margin-top: 10px;
+}
+
+.crops_info h4{
+    text-align: center;
+    background-color:rgb(168,228,160) ;
+    color: rgb(45, 43, 43);
+    padding: 10px 0px 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    box-shadow: 5px 5px 5px gray;
+    margin-bottom: 20px;
+}
+
+.holder{
+    width: 90%;
+    height: 400px;
+    margin: auto;
+    box-sizing: border-box;
+    display: flex;
+    background-color:  rgb(168,228,160);
+    margin-bottom: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+}
+.holder .image_holder{
+    width:50%;
+    height:400px;
+    position: relative;
+    overflow: hidden;
+    
+}
+
+.image_holder img{
+    width:100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.holder .content li{
+    padding-bottom: 20px;
+}
+.holder .content{
+    width:50%;
+    height:400px;
+    padding: 30px 30px 30px 30px;
+    font-size: 18px;
+    color: #0f0000;
+    overflow: scroll;
+}
+
+.holder .content i{
+    font-size: 22px;
+    color: #0f0000;
+}
+
+.image_holder img:hover{
+    width:600px;
+    height: 500px;
+    transition: 1s ease-in-out;
+    
+}
+
+.info{
+    width: 50%;
+    height: 400px;
+    overflow: scroll;
+}
+
+
+
+/* ===================  crops list =====================*/
+
+.list_intro{
+    padding: 0;
+    margin: 0;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53,94,59);
+}
+
+.list_intro p{
+    padding-top: 10px;
+    text-align: center;
+    width: 1000px;
+    height: 100px; 
+    font-size: 2rem;
+    font-weight: bold;
+    margin-left: 250px;
+}
+
+.list_text{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.list_text .each_list{
+    padding-left: 50px;   
+    color: rgb(240, 241, 240);
+    
+}
+
+.each_list h3{
+    font-size: 25px;
+    color:  rgb(0,66,37);
+}
+
+.list_btn{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    
+}
+
+.each_list_btn button{
+    width: 300px;
+    margin-top: 20px;
+    height: 50px;
+    margin-left: 150px;
+    background-color: rgb(0,145,80);
+    color: snow;
+    font-size: 20px;
+}
+
+.each_list_btn button:hover{
+    background-color:  rgb(87, 113, 0);
+    color: snow;
+}
+
+.each_list_btn .each_list_btn_active{
+    background-color: rgb(255,165,0);
+    color: snow;
+}
+
+
+.total_crops_table{
+    margin-top: 20px;
+    
+}
+
+.total_crops_table thead{
+    background-color: rgb(46,139,87);
+    color: #fcf9f9;
+}
+
+.total_crops_table tbody{
+    background-color:  rgb(236, 248, 194);
+    color: rgb(6, 24, 0);
+    font-weight: bold;   
+}
+
+
+/* ================== rating ================== */
+
+.progress_container{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.progress_container h4{
+    background-color:  rgb(255,165,0);
+    color: snow;
+    height: 50px;
+    padding-top: 10px;
+    margin-top: 10px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+}
+
+.pro_crop{
+    color: rgb(59, 0, 0);
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 40px;
+    font-size: 30px;
+    font-weight: bold;
+    text-shadow: 20px 20px 20px gray;
+}
+
+.pro_year{
+    font-size: 20px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.span_left{
+    display: inline;
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+    margin-top: 0.7rem;
+    float: left;
+}
+
+.span_right{
+    display: inline;
+    color: rgb(11, 11, 11);
+    font-size: 15px;
+    margin-top: 0.7rem;
+    float: right;
+}
+
+.progress_bg{
+    background-color:     rgb(236, 248, 194);
+}
+
+/* ================================Contact Us Page ========================================= */
+
+.contact-us h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding-bottom: 10px;
+}
+
+.contact-us p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.contact-us p i{
+    font-weight: normal;
+    padding-top: 10px;
+}
+
+.msg-box{
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.submit{
+    margin-left: 15px;
+    padding: 15px 35px 15px 35px;
+    border-radius: 40px;
+    margin-bottom: 15px;
+    background-color: rgb(41, 96, 30);
+    color:rgb(247, 238, 238);
+    font-size: 15px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.submit:hover{
+    background-color:rgb(11, 11, 11);;
+    color:rgb(255, 255, 255);
+}
+
+.submit:active{
+    background:transparent;
+    color: rgb(11, 11, 11);;
+}
+
+/* ================== about ================== */
+.about h5{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 30px;
+}
+
+.about p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; 
+    font-size: 20px;
+    text-align: justify;
+}
+
+.about h4{
+    color: rgb(11, 11, 11);;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+
+.member_container{
+    max-width: 1000px;
+    margin: 10px auto;
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card{
+    flex-basis: 45%;
+    text-align: center;
+    color: rgb(15, 15, 15);
+    overflow: hidden;
+    margin: 5px 0;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;}
+
+.card .content{
+    padding: 5px;
+    text-align: justify;
+}
+
+.card img{
+    width:100%;
+    height: 200px;
+    object-fit: cover;
+    object-position: 100% 10%;
+    transition: 0.5s ease-in-out;
+    
+}
+
+
+.card .icons {
+    display: flex;
+    justify-content: center;
+}
+
+.card .icons i{
+    margin: 10px;
+    font-size: 1.5em;
+    opacity: 0.6;
+}
+
+
+
+@media(max-width:600px){
+    .container{
+        flex-direction: column;
+    }
+}
+
+
+/* ================= statistics ================*/
+.stat_tbl{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: auto;
+    padding-top: 10px;
+    background-color: rgb(79, 78, 77);
+}
+
+.crop_stat{
+    margin: auto;
+    width: 1200px;
+    height: 200px;
+}
+
+.crop_stat h5{
+    margin-top: 15px;
+    font-size: 30px;
+}
+.crop_stat select{
+    margin: 0px 10px 10px 5px;
+    border-radius: 6px;
+    background-color: rgb(255,69,0);
+    color: #fcf9f8;
+    width: 150px;
+    height: 40px;
+   
+}
+
+.stat_link{
+    color: #270000;
+    
+}
+
+.table_name{
+    width: 1px;
+    height: 1px;
+    visibility: hidden;
+} 
+/* ====================see statistics ============================== */
+.title{
+    width: 1200px;
+    height: 50px;
+    padding-top: 5px;
+    background-color: rgb(106, 5, 1);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    text-align: center;
+    margin: auto;
+    color: snow;
+    margin-top: 10px;
+}
+
+/* ================== Insert Statistics ======================== */
+.crop_insert_form{
+    padding-top: 10px;
+    background-color: #d8cdcd;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.crop_insert_form h4{
+    color: #100f0f;
+    font-size: 40px;
+    text-align: center;
+}
+
+.crop_insert_form td{
+    font-size: 20px;
+}
+
+.crop_insert_form td select{
+    font-size: 15px;
+}
+
+
+/* ================content ==============*/
+
+.crop_content{
+    width: 1500px;
+    margin: auto;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 10px;
+    
+}
+
+.crop_content .create button{
+    width: 200px;
+    height: 70px;
+    margin: 10px 0px 5px 0px;
+    background-color: #030303;
+    padding-top: 8px;
+    color: #f8f4f4;
+    font-size: 18px;
+	font-weight: bold;
+    text-transform: uppercase;
+	transition: transform 1s ease-in;
+    border-radius: 10px;
+}
+
+.create button:hover{
+    background-color: rgb(246, 80, 29);
+}
+
+.create:active {
+	transform: scale(0.95);
+}
+
+.crop_content .option{
+    width: 1500px;
+    background-color: rgb(238, 238, 237);
+    color: #060606;
+    padding-right: 10px;
+
+}
+
+.option_tbl thead{
+    color: #030303;
+    font-size: 18px;
+	font-weight: bold;
+    
+}
+
+.start_life{
+    width: 220px;
+}
+
+.option_tbl tbody{
+    color: #0f0f0f;
+    font-size: 18px;
+    
+
+}
+
+.content_img{
+    width: 200px;
+    height: 150px;
+}
+.content_img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    object-fit: cover;
+}
+
+.update_btn button{
+    width: 100px;
+    height: 55px;
+    margin: 10px 0px 5px 0px;
+    background-color: #fa1d1d;
+    padding-top: 8px;
+    color: #f8f4f4;
+    font-size: 18px;
+	font-weight: bold;
+    text-transform: uppercase;
+	transition: transform 1s ease-in;
+    border-radius: 10px;
+}
+
+.update_btn button:hover{
+    background-color: rgb(135, 132, 132);
+    color: #060606;
+}
+
+.delete_btn button{
+    width: 100px;
+    height: 55px;
+    margin: 10px 0px 5px 0px;
+    background-color: #270000;
+    padding-top: 8px;
+    color: #f8f4f4;
+    font-size: 18px;
+	font-weight: bold;
+    text-transform: uppercase;
+	transition: transform 1s ease-in;
+    border-radius: 10px;
+}
+
+.delete_btn button:hover{
+    background-color: rgb(135, 132, 132);
+    color: #060606;
+}
+
+
+/* ============= create content=================== */
+
+.content_btn{
+    width: 900px;
+    height: 60px;
+    border: 3px solid rgb(5, 5, 5);
+	background-color: rgb(11, 11, 11);
+    border-radius: 10px;
+    margin-top: 20px;
+	font-family:Georgia, 'Times New Roman', Times, serif;
+    color: #fcf7f7;
+    font-size: 18px;
+	font-weight: bold;
+    text-transform: uppercase;
+	transition: transform 1s ease-in;
+}
+
+.content_btn:hover {
+    border: 3px solid rgb(14, 2, 0);
+    background-color: rgba(248, 244, 243, 0.966);
+    color: rgb(10, 10, 10);
+
+}
+
+.crop_insert_form .content_image{
+    width: 200px;
+    height: 150px;
+    overflow: hidden;
+    object-fit: cover;
+    
+}
+
+.crop_insert_form .content_image img{
+    width: 100%;
+    height: 100%;
+}
+
